@@ -38,6 +38,10 @@ a) A valid GMSH file. Make sure to run 'gmsh -check yourmesh.msh' to ensure
    order to generate, boundary layer thickness, minimum acceptible mesh quality,
    etc. Examples are provided in the Demo cases. 
 
+MeshOpt is run by executing the binary Meshopt in the case directory. MeshOpt 
+does not accept any command line arguments; everything is specified in the 
+configuration file.
+
 ## 4.0 BUGS/SUPPORT
 Please feel free to contact me at johnpmooreiv@gmail.com with any bug reports 
 or questions you may have.
